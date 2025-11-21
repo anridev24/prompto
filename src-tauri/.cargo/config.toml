@@ -1,0 +1,3 @@
+[build]
+# Force static CRT to avoid runtime library mismatch on Windows
+rustflags = ["-C", "target-feature=+crt-static"]

@@ -1,0 +1,34 @@
+{
+  "productName": "prompto",
+  "version": "0.1.0",
+  "identifier": "com.prompto.app",
+  "build": {
+    "beforeDevCommand": "bun run dev",
+    "devUrl": "http://localhost:5173",
+    "beforeBuildCommand": "bun run build",
+    "frontendDist": "../dist"
+  },
+  "bundle": {
+    "active": false,
+    "targets": "all"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "prompto",
+        "width": 1200,
+        "height": 800,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "plugins": {
+    "shell": {
+      "open": true
+    }
+  }
+}

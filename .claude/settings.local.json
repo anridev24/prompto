@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rustc:*)",
+      "Bash(cargo --version:*)",
+      "Bash(rustup update:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(pnpm tauri:dev:*)",
+      "Bash(cargo build:*)",
+      "Bash(pnpm tauri icon:*)",
+      "Bash(curl:*)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git merge:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
